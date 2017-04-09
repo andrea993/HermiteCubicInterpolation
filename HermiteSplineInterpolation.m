@@ -1,6 +1,6 @@
 function y=HermiteSplineInterpolation(x,tx,ty)
 
-%coefficienti di Hermite
+%funzioni di Hermite
 h00=@(t) (1+2*t)*(1-t)^2;
 h10=@(t) t*(1-t)^2;
 h01=@(t) t^2*(3-2*t);
